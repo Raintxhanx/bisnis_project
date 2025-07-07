@@ -8,3 +8,4 @@ from scipy.stats import yeojohnson
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
+df = pd.read_csv(data)
