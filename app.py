@@ -49,6 +49,8 @@ def promp_gpt():
                     "Berikut insight ringkas:\n"
                     f"{string_1}\n{string_2}\n{string_3}\n\n"
                     "Data penjualan per kategori:\n"
+                    f"{daily_sales}\n\n"
+                    "Data penjualan per hari:\n"
                     f"{cat_sales_json}\n\n"
                     "Rata-rata penjualan per usia:\n"
                     f"{avg_sales_age_json}\n\n"
