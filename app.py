@@ -56,9 +56,13 @@ def promp_gpt():
                     f"{avg_sales_age_json}\n\n"
                     "Heatmap Kategori x Usia:\n"
                     f"{pivot_json}\n\n"
-                    "Tolong analisis:\n"
-                    "Tolong anda analisis dengan data di atas, bagaimana prospek penjualan bisnis saya dalam sebulan, apakah ada tren atau pola tertentu yang terlihat"
-                    "kategori produk apa yang harus saya prioritaskan, tren atau pola tersebut populer di kalangan usia berapa, target pemasaran seperti apa yang harus saya siapkan untuk produksi iklan"
+                    "Mohon analisis data di atas dan jawab pertanyaan berikut secara jelas dan terstruktur:\n\n"
+                    "1️⃣ Apakah ada tren penjualan harian yang signifikan (naik/turun/berfluktuasi) selama bulan ini?\n"
+                    "2️⃣ Kategori produk mana yang sebaiknya diprioritaskan untuk mendongkrak penjualan?\n"
+                    "3️⃣ Kelompok usia mana yang mendominasi pembelian pada kategori tersebut?\n"
+                    "4️⃣ Apa strategi pemasaran yang tepat (misalnya: promo, channel iklan, ide konten) untuk target usia dominan?\n"
+                    "5️⃣ Berikan rekomendasi praktis agar penjualan bulan depan lebih baik.\n\n"
+                    "Jawab dengan poin-poin agar mudah dibaca."
                 )
             }
         ]
