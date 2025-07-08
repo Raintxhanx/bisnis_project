@@ -1,6 +1,69 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
+import numpy as np
+import requests
+import json
+import os
+from dotenv import load_dotenv
+
+
+# Load file .env
+load_dotenv()
+
+api_key = os.getenv("OPENAI_API_KEY")
+url = "https://api.openai.com/v1/chat/completions"
+
+def promp_gpt():
+        
+    # Konversi pivot ke JSON string (Heatmap)
+    pivot_json = pivot.reset_index().to_json(orient="records")
+
+    # Konversi tabel kategori penjualan ke JSON string (Bar & Pie)
+    cat_sales_json = cat_sales.to_json(orient="records")
+
+    # Konversi rata-rata penjualan per usia ke JSON string
+    avg_sales_age_json = avg_sales_age.to_json(orient="records")
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}"
+    }
+
+    data = {
+        "model": "gpt-4o",
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "Anda adalah analis bisnis. "
+                    "Di bawah ini ada data-data penjualan yang sudah difilter berdasarkan bulan. "
+                    "Analisislah data ini dengan cermat."
+                )
+            },
+            {
+                "role": "user",
+                "content": (
+                    f"Bulan yang dianalisis: {selected}\n\n"
+                    "Berikut insight ringkas:\n"
+                    f"{string_1}\n{string_2}\n{string_3}\n\n"
+                    "Data penjualan per kategori:\n"
+                    f"{cat_sales_json}\n\n"
+                    "Rata-rata penjualan per usia:\n"
+                    f"{avg_sales_age_json}\n\n"
+                    "Heatmap Kategori x Usia:\n"
+                    f"{pivot_json}\n\n"
+                    "Tolong analisis:\n"
+                    "Tolong anda analisis dengan data di atas, bagaimana prospek penjualan bisnis saya dalam sebulan, apakah ada tren atau pola tertentu yang terlihat"
+                    "kategori produk apa yang harus saya prioritaskan, tren atau pola tersebut populer di kalangan usia berapa, target pemasaran seperti apa yang harus saya siapkan untuk produksi iklan"
+                )
+            }
+        ]
+    }
+
+    response = requests.post(url, headers=headers, data=json.dumps(data))
+    return response.json()
 
 st.set_page_config(layout="wide")
 
@@ -73,6 +136,63 @@ if st.session_state.analyze_clicked and uploaded_file is not None:
     st.markdown("### Rata-rata Penjualan per Usia")
     avg_sales_age = df.groupby('age')['sales'].mean().reset_index().sort_values(by='age')
     st.dataframe(avg_sales_age)
+
+    # --- HEATMAP: KATEGORI X USIA (versi rapih & kustom) ---
+    st.markdown("### Heatmap Penjualan per Kategori dan Usia")
+
+    pivot = monthly_data.pivot_table(index='age', columns='category', values='sales', aggfunc='sum', fill_value=0)
+
+    fig6 = go.Figure(
+        data=go.Heatmap(
+            z=pivot.values,
+            x=pivot.columns,
+            y=pivot.index,
+            colorscale=[
+                [0, "black"],   # Nilai minimum = hitam
+                [1, "red"]      # Nilai maksimum = merah
+            ],
+            hovertemplate="Kategori: %{x}<br>Usia: %{y}<br>Jumlah Terjual: %{z}<extra></extra>",
+            colorbar=dict(title="Jumlah Terjual")
+        )
+    )
+
+    fig6.update_layout(
+        title="Heatmap Penjualan: Kategori vs Usia",
+        xaxis_title="Kategori",
+        yaxis_title="Usia",
+        autosize=True,
+        width=800,   # Lebih lebar
+        height=600,  # Lebih tinggi
+    )
+
+    st.plotly_chart(fig6, use_container_width=True)
+
+    # Cari (usia, kategori) dengan penjualan tertinggi
+    max_value = pivot.values.max()
+    max_idx = np.unravel_index(pivot.values.argmax(), pivot.shape)
+    max_age = pivot.index[max_idx[0]]
+    max_category = pivot.columns[max_idx[1]]
+
+    st.info(f"💡 Penjualan tertinggi ada pada usia **{max_age}** untuk kategori **{max_category}**, dengan jumlah: **{max_value}**.")
+    string_1 = f"💡 Penjualan tertinggi ada pada usia **{max_age}** untuk kategori **{max_category}**, dengan jumlah: **{max_value}**."
+
+    # Kategori dengan total penjualan tertinggi di semua usia
+    total_per_category = pivot.sum(axis=0)
+    top_category = total_per_category.idxmax()
+    st.info(f"🏆 Kategori dengan penjualan tertinggi di semua usia: **{top_category}** ({total_per_category.max()}).")
+    string_2 = f"🏆 Kategori dengan penjualan tertinggi di semua usia: **{top_category}** ({total_per_category.max()})."
+
+    # Usia dengan total penjualan tertinggi di semua kategori
+    total_per_age = pivot.sum(axis=1)
+    top_age = total_per_age.idxmax()
+    st.info(f"👥 Usia dengan penjualan tertinggi di semua kategori: **{top_age}** ({total_per_age.max()}).")
+    string_3 = "👥 Usia dengan penjualan tertinggi di semua kategori: **{top_age}** ({total_per_age.max()})."
+
+    with st.spinner("Menunggu respon dari GPT..."):
+        result = promp_gpt()
+        answer = result["choices"][0]["message"]["content"]
+        st.success("Berikut hasil analisis dari GPT:")
+        st.write(answer)
 
 elif analyze:
     st.warning("Mohon upload file CSV terlebih dahulu.")
