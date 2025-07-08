@@ -1,0 +1,1001 @@
+date,product,category,sales,age
+2023-12-26,Milk,Beverages,40,34
+2023-03-24,Popcorn,Snacks,34,57
+2023-06-14,Strawberry,Produce,4,44
+2023-10-23,Candy,Snacks,27,56
+2023-06-25,Granola Bar,Snacks,24,44
+2023-08-14,Milk,Dairy,31,44
+2023-12-09,Smoothie,Beverages,8,43
+2023-02-26,Yogurt,Dairy,5,25
+2023-08-02,Banana,Produce,17,60
+2023-08-20,Bun,Bakery,32,40
+2023-06-28,Croissant,Bakery,49,61
+2023-06-27,Cottage Cheese,Dairy,20,55
+2023-04-24,Carrot,Produce,34,60
+2023-10-12,Cheese,Dairy,22,24
+2023-03-02,Smoothie,Beverages,24,64
+2023-09-13,Chips,Snacks,46,34
+2023-09-28,Lemonade,Beverages,9,60
+2023-06-30,Cream,Dairy,33,22
+2023-10-09,Roll,Bakery,14,50
+2023-02-09,Croissant,Bakery,27,42
+2023-04-19,Soda,Beverages,15,53
+2023-12-02,Tomato,Produce,42,22
+2023-07-05,Smoothie,Beverages,46,47
+2023-09-29,Milk,Dairy,44,38
+2023-03-06,Butter,Dairy,37,22
+2023-09-15,Cake,Bakery,23,19
+2023-12-23,Iced Tea,Beverages,40,54
+2023-05-18,Butter,Dairy,12,48
+2023-10-07,Lemonade,Beverages,16,30
+2023-11-28,Potato,Produce,31,54
+2023-04-25,Strawberry,Produce,1,61
+2023-04-04,Carrot,Produce,23,37
+2023-12-09,Sour Cream,Dairy,29,18
+2023-03-20,Cream,Dairy,13,20
+2023-06-15,Bread,Bakery,4,38
+2023-09-22,Cream,Dairy,37,58
+2023-09-15,Cheese,Dairy,16,30
+2023-12-11,Sour Cream,Dairy,13,42
+2023-05-15,Lemonade,Beverages,6,24
+2023-07-24,Yogurt,Dairy,7,59
+2023-04-06,Water,Beverages,5,65
+2023-10-06,Bread,Bakery,23,62
+2023-01-04,Pie,Bakery,33,51
+2023-12-27,Lettuce,Produce,49,52
+2023-12-24,Chocolate,Snacks,50,25
+2023-10-24,Strawberry,Produce,11,54
+2023-01-22,Popcorn,Snacks,30,28
+2023-03-05,Bagel,Bakery,33,60
+2023-04-28,Danish,Bakery,17,56
+2023-08-14,Carrot,Produce,12,28
+2023-09-20,Popcorn,Snacks,34,64
+2023-01-21,Cream,Dairy,31,36
+2023-12-19,Lemonade,Beverages,28,58
+2023-01-04,Strawberry,Produce,2,29
+2023-09-30,Biscuits,Snacks,49,58
+2023-08-12,Butter,Dairy,29,25
+2023-06-23,Bread,Bakery,32,38
+2023-11-15,Chocolate,Snacks,2,63
+2023-11-21,Lettuce,Produce,43,34
+2023-08-26,Crackers,Snacks,44,24
+2023-03-06,Onion,Produce,28,55
+2023-01-18,Chocolate,Snacks,11,54
+2023-07-17,Cucumber,Produce,19,38
+2023-02-11,Carrot,Produce,46,25
+2023-11-05,Chips,Snacks,41,35
+2023-05-13,Buttermilk,Dairy,16,23
+2023-12-11,Banana,Produce,23,27
+2023-10-19,Roll,Bakery,29,37
+2023-12-15,Iced Tea,Beverages,42,49
+2023-06-22,Water,Beverages,47,26
+2023-04-20,Pie,Bakery,23,23
+2023-10-20,Cucumber,Produce,12,47
+2023-08-06,Biscuits,Snacks,42,47
+2023-06-27,Carrot,Produce,1,43
+2023-10-20,Ghee,Dairy,49,48
+2023-11-09,Danish,Bakery,29,47
+2023-02-15,Pie,Bakery,43,29
+2023-07-24,Milk,Dairy,22,38
+2023-10-03,Tea,Beverages,26,40
+2023-12-14,Candy,Snacks,8,36
+2023-11-03,Roll,Bakery,34,38
+2023-02-20,Donut,Bakery,1,24
+2023-01-30,Bagel,Bakery,24,42
+2023-09-03,Strawberry,Produce,20,47
+2023-03-09,Sour Cream,Dairy,47,54
+2023-01-09,Cream,Dairy,38,21
+2023-08-14,Ice Cream,Dairy,39,51
+2023-02-10,Tea,Beverages,14,20
+2023-03-09,Butter,Dairy,50,22
+2023-11-30,Cucumber,Produce,6,49
+2023-05-06,Crackers,Snacks,24,43
+2023-06-13,Cake,Bakery,35,33
+2023-02-22,Candy,Snacks,11,59
+2023-08-18,Ice Cream,Dairy,21,53
+2023-09-06,Water,Beverages,46,25
+2023-02-12,Coffee,Beverages,29,62
+2023-03-19,Candy,Snacks,8,57
+2023-02-12,Carrot,Produce,20,26
+2023-01-29,Tomato,Produce,16,22
+2023-05-01,Cucumber,Produce,37,60
+2023-08-28,Danish,Bakery,12,19
+2023-01-04,Chocolate,Snacks,37,20
+2023-08-05,Iced Tea,Beverages,30,35
+2023-01-14,Biscuits,Snacks,32,56
+2023-01-30,Candy,Snacks,45,51
+2023-10-25,Cheese,Dairy,25,53
+2023-11-12,Energy Drink,Beverages,41,38
+2023-06-15,Nuts,Snacks,2,34
+2023-02-18,Butter,Dairy,1,24
+2023-02-07,Banana,Produce,30,42
+2023-12-07,Crackers,Snacks,43,57
+2023-03-16,Buttermilk,Dairy,19,51
+2023-05-02,Soda,Beverages,19,26
+2023-05-31,Lettuce,Produce,10,25
+2023-12-27,Danish,Bakery,30,22
+2023-06-01,Lemonade,Beverages,40,22
+2023-02-08,Buttermilk,Dairy,49,32
+2023-04-02,Milk,Beverages,19,23
+2023-10-09,Pie,Bakery,17,54
+2023-01-18,Roll,Bakery,4,52
+2023-11-23,Onion,Produce,9,33
+2023-02-06,Crackers,Snacks,41,62
+2023-05-27,Onion,Produce,30,19
+2023-12-19,Pretzels,Snacks,44,46
+2023-08-14,Bun,Bakery,47,37
+2023-01-14,Tea,Beverages,26,59
+2023-04-02,Chips,Snacks,45,49
+2023-11-28,Cookies,Snacks,27,56
+2023-07-27,Potato,Produce,28,23
+2023-02-19,Water,Beverages,41,65
+2023-12-12,Pie,Bakery,41,56
+2023-02-21,Lettuce,Produce,24,54
+2023-02-18,Butter,Dairy,16,27
+2023-10-02,Soda,Beverages,37,24
+2023-04-02,Juice,Beverages,9,29
+2023-12-05,Lettuce,Produce,17,51
+2023-03-07,Bagel,Bakery,14,25
+2023-01-03,Orange,Produce,10,55
+2023-08-26,Onion,Produce,33,20
+2023-12-07,Coffee,Beverages,40,53
+2023-07-31,Cookies,Snacks,28,37
+2023-03-02,Bun,Bakery,43,37
+2023-04-14,Carrot,Produce,12,48
+2023-07-15,Danish,Bakery,9,20
+2023-11-18,Energy Drink,Beverages,18,30
+2023-09-20,Cream,Dairy,49,34
+2023-04-27,Iced Tea,Beverages,26,47
+2023-09-09,Juice,Beverages,10,38
+2023-01-04,Cottage Cheese,Dairy,13,42
+2023-11-08,Water,Beverages,39,41
+2023-02-23,Iced Tea,Beverages,41,53
+2023-10-21,Roll,Bakery,26,46
+2023-06-11,Soda,Beverages,18,47
+2023-06-20,Potato,Produce,2,59
+2023-12-20,Yogurt,Dairy,35,28
+2023-09-14,Orange,Produce,12,42
+2023-01-05,Cake,Bakery,32,34
+2023-11-25,Cookies,Snacks,16,41
+2023-04-07,Ghee,Dairy,49,35
+2023-06-12,Biscuits,Snacks,37,54
+2023-07-17,Lemonade,Beverages,39,42
+2023-04-28,Sour Cream,Dairy,35,33
+2023-08-25,Milk,Dairy,48,36
+2023-11-13,Sour Cream,Dairy,14,44
+2023-10-10,Granola Bar,Snacks,49,54
+2023-02-17,Iced Tea,Beverages,49,20
+2023-03-03,Biscuits,Snacks,40,39
+2023-07-26,Bun,Bakery,26,41
+2023-01-31,Bagel,Bakery,41,52
+2023-08-05,Coffee,Beverages,39,20
+2023-09-08,Cake,Bakery,22,30
+2023-01-10,Ghee,Dairy,3,38
+2023-04-26,Buttermilk,Dairy,7,33
+2023-02-02,Bun,Bakery,22,31
+2023-09-06,Cake,Bakery,24,46
+2023-05-07,Bagel,Bakery,48,54
+2023-12-18,Juice,Beverages,7,40
+2023-08-20,Bun,Bakery,9,56
+2023-05-20,Coffee,Beverages,13,28
+2023-07-11,Donut,Bakery,16,38
+2023-09-04,Popcorn,Snacks,33,40
+2023-03-28,Cake,Bakery,31,56
+2023-06-08,Bagel,Bakery,20,32
+2023-11-19,Cheese,Dairy,42,20
+2023-12-02,Danish,Bakery,37,54
+2023-08-16,Bagel,Bakery,6,26
+2023-11-01,Cucumber,Produce,14,34
+2023-08-10,Crackers,Snacks,38,35
+2023-11-21,Donut,Bakery,23,41
+2023-08-18,Bun,Bakery,11,43
+2023-04-16,Smoothie,Beverages,10,20
+2023-09-29,Buttermilk,Dairy,33,52
+2023-05-12,Pie,Bakery,21,41
+2023-03-20,Popcorn,Snacks,26,58
+2023-12-23,Cream,Dairy,31,54
+2023-10-11,Donut,Bakery,34,60
+2023-11-26,Lemonade,Beverages,21,64
+2023-06-11,Carrot,Produce,25,28
+2023-12-20,Soda,Beverages,40,25
+2023-05-14,Muffin,Bakery,22,26
+2023-07-04,Candy,Snacks,15,38
+2023-06-05,Tea,Beverages,31,65
+2023-12-01,Buttermilk,Dairy,28,35
+2023-04-27,Apple,Produce,30,35
+2023-01-07,Danish,Bakery,19,38
+2023-05-18,Milk,Beverages,10,56
+2023-10-21,Lettuce,Produce,10,47
+2023-02-09,Chips,Snacks,15,30
+2023-07-08,Orange,Produce,3,58
+2023-06-01,Lettuce,Produce,8,45
+2023-07-12,Yogurt,Dairy,47,64
+2023-05-16,Butter,Dairy,9,50
+2023-01-13,Crackers,Snacks,44,35
+2023-06-24,Yogurt,Dairy,5,56
+2023-08-24,Chips,Snacks,25,50
+2023-12-20,Chocolate,Snacks,37,54
+2023-11-14,Yogurt,Dairy,32,65
+2023-09-02,Lemonade,Beverages,11,23
+2023-03-26,Chocolate,Snacks,22,63
+2023-05-21,Bun,Bakery,9,59
+2023-05-26,Muffin,Bakery,20,52
+2023-07-06,Donut,Bakery,1,32
+2023-07-30,Apple,Produce,11,56
+2023-12-21,Smoothie,Beverages,13,42
+2023-04-05,Chips,Snacks,25,63
+2023-04-23,Soda,Beverages,44,48
+2023-03-29,Smoothie,Beverages,9,51
+2023-12-13,Ghee,Dairy,46,20
+2023-01-12,Orange,Produce,31,33
+2023-02-17,Nuts,Snacks,36,33
+2023-08-03,Milk,Dairy,47,24
+2023-12-06,Bun,Bakery,47,39
+2023-06-20,Iced Tea,Beverages,6,36
+2023-12-15,Cucumber,Produce,40,28
+2023-07-28,Strawberry,Produce,39,54
+2023-04-05,Soda,Beverages,16,49
+2023-08-06,Muffin,Bakery,47,56
+2023-12-16,Cottage Cheese,Dairy,9,52
+2023-05-21,Strawberry,Produce,18,42
+2023-07-24,Candy,Snacks,34,47
+2023-09-19,Onion,Produce,15,26
+2023-11-18,Ghee,Dairy,42,47
+2023-02-23,Strawberry,Produce,16,30
+2023-01-09,Smoothie,Beverages,26,57
+2023-05-28,Chips,Snacks,44,41
+2023-08-07,Smoothie,Beverages,30,50
+2023-07-18,Soda,Beverages,27,64
+2023-03-31,Granola Bar,Snacks,9,58
+2023-01-06,Cottage Cheese,Dairy,25,63
+2023-05-08,Cottage Cheese,Dairy,37,38
+2023-11-11,Muffin,Bakery,47,43
+2023-08-13,Crackers,Snacks,39,29
+2023-07-06,Cottage Cheese,Dairy,13,20
+2023-10-30,Banana,Produce,29,30
+2023-03-05,Yogurt,Dairy,10,48
+2023-12-24,Apple,Produce,5,41
+2023-10-10,Cucumber,Produce,38,24
+2023-10-01,Buttermilk,Dairy,25,33
+2023-08-07,Tea,Beverages,43,56
+2023-05-04,Roll,Bakery,41,36
+2023-10-21,Lemonade,Beverages,45,43
+2023-07-31,Coffee,Beverages,14,18
+2023-09-08,Cream,Dairy,42,57
+2023-07-12,Buttermilk,Dairy,7,34
+2023-10-21,Apple,Produce,13,26
+2023-10-13,Cheese,Dairy,12,20
+2023-01-12,Tea,Beverages,4,22
+2023-12-07,Crackers,Snacks,26,28
+2023-02-21,Bagel,Bakery,21,38
+2023-05-09,Butter,Dairy,42,45
+2023-04-06,Bun,Bakery,25,28
+2023-01-10,Lemonade,Beverages,1,47
+2023-03-24,Cookies,Snacks,36,39
+2023-06-30,Ice Cream,Dairy,30,41
+2023-12-17,Lemonade,Beverages,33,53
+2023-03-12,Lettuce,Produce,44,38
+2023-07-12,Soda,Beverages,21,19
+2023-11-01,Tea,Beverages,24,24
+2023-12-22,Roll,Bakery,36,58
+2023-05-15,Cheese,Dairy,2,37
+2023-06-20,Candy,Snacks,47,42
+2023-08-27,Roll,Bakery,9,59
+2023-11-06,Biscuits,Snacks,33,32
+2023-02-23,Granola Bar,Snacks,29,44
+2023-06-30,Water,Beverages,28,46
+2023-12-11,Buttermilk,Dairy,1,44
+2023-10-17,Tea,Beverages,1,60
+2023-10-03,Juice,Beverages,31,20
+2023-01-08,Croissant,Bakery,13,37
+2023-01-13,Water,Beverages,28,31
+2023-10-17,Juice,Beverages,29,23
+2023-05-13,Muffin,Bakery,3,41
+2023-08-17,Yogurt,Dairy,21,31
+2023-08-01,Muffin,Bakery,20,49
+2023-07-18,Yogurt,Dairy,11,51
+2023-12-10,Pie,Bakery,44,37
+2023-05-31,Ghee,Dairy,31,65
+2023-05-22,Milk,Beverages,1,26
+2023-12-19,Popcorn,Snacks,14,35
+2023-11-20,Donut,Bakery,28,36
+2023-04-13,Milk,Dairy,16,42
+2023-07-15,Bread,Bakery,44,58
+2023-07-03,Croissant,Bakery,10,47
+2023-11-03,Bun,Bakery,45,18
+2023-07-10,Cottage Cheese,Dairy,47,38
+2023-09-10,Nuts,Snacks,32,51
+2023-08-19,Pretzels,Snacks,12,55
+2023-07-25,Iced Tea,Beverages,4,54
+2023-06-01,Cucumber,Produce,6,39
+2023-11-30,Milk,Beverages,19,44
+2023-03-17,Candy,Snacks,17,51
+2023-02-08,Apple,Produce,50,54
+2023-10-19,Onion,Produce,11,33
+2023-12-07,Cake,Bakery,7,33
+2023-11-18,Popcorn,Snacks,34,34
+2023-07-25,Cookies,Snacks,50,48
+2023-06-03,Muffin,Bakery,14,21
+2023-05-30,Granola Bar,Snacks,22,62
+2023-08-04,Banana,Produce,1,41
+2023-07-22,Ice Cream,Dairy,26,64
+2023-10-13,Soda,Beverages,24,59
+2023-02-08,Cake,Bakery,13,59
+2023-11-15,Croissant,Bakery,35,56
+2023-09-23,Carrot,Produce,14,36
+2023-04-26,Bun,Bakery,5,40
+2023-10-11,Lettuce,Produce,48,19
+2023-10-05,Iced Tea,Beverages,39,27
+2023-03-17,Bagel,Bakery,39,55
+2023-11-23,Cheese,Dairy,50,29
+2023-02-16,Cream,Dairy,20,23
+2023-06-10,Yogurt,Dairy,9,64
+2023-07-16,Buttermilk,Dairy,13,63
+2023-06-05,Chocolate,Snacks,48,65
+2023-12-04,Smoothie,Beverages,11,51
+2023-06-27,Cake,Bakery,24,38
+2023-06-22,Popcorn,Snacks,36,20
+2023-10-18,Bread,Bakery,21,55
+2023-03-18,Lettuce,Produce,32,37
+2023-07-11,Smoothie,Beverages,8,33
+2023-01-04,Cottage Cheese,Dairy,6,55
+2023-11-09,Crackers,Snacks,36,58
+2023-03-27,Crackers,Snacks,21,39
+2023-07-07,Water,Beverages,33,37
+2023-12-13,Bread,Bakery,23,23
+2023-09-28,Coffee,Beverages,38,28
+2023-04-17,Sour Cream,Dairy,27,29
+2023-04-27,Cake,Bakery,36,28
+2023-03-31,Chips,Snacks,2,53
+2023-08-02,Roll,Bakery,31,24
+2023-07-07,Carrot,Produce,48,27
+2023-07-18,Lemonade,Beverages,38,55
+2023-07-08,Granola Bar,Snacks,30,58
+2023-03-31,Coffee,Beverages,32,35
+2023-10-06,Lemonade,Beverages,30,38
+2023-07-28,Sour Cream,Dairy,46,44
+2023-11-13,Bread,Bakery,47,57
+2023-02-28,Pretzels,Snacks,29,63
+2023-08-15,Lemonade,Beverages,43,64
+2023-01-05,Biscuits,Snacks,14,19
+2023-04-23,Lettuce,Produce,32,28
+2023-02-22,Energy Drink,Beverages,46,39
+2023-04-30,Granola Bar,Snacks,27,49
+2023-01-19,Granola Bar,Snacks,17,56
+2023-08-09,Lettuce,Produce,9,38
+2023-05-14,Iced Tea,Beverages,41,32
+2023-03-29,Cream,Dairy,9,62
+2023-07-29,Chips,Snacks,18,50
+2023-12-04,Coffee,Beverages,17,19
+2023-04-11,Coffee,Beverages,21,31
+2023-07-10,Ghee,Dairy,36,48
+2023-06-17,Sour Cream,Dairy,24,58
+2023-08-27,Buttermilk,Dairy,46,49
+2023-05-10,Pie,Bakery,34,63
+2023-01-25,Orange,Produce,9,39
+2023-07-09,Chips,Snacks,49,60
+2023-10-07,Biscuits,Snacks,3,31
+2023-12-27,Energy Drink,Beverages,21,32
+2023-12-03,Potato,Produce,24,35
+2023-05-25,Sour Cream,Dairy,34,55
+2023-11-29,Cake,Bakery,49,54
+2023-09-15,Bread,Bakery,17,48
+2023-07-22,Nuts,Snacks,7,46
+2023-03-24,Smoothie,Beverages,42,19
+2023-04-29,Lemonade,Beverages,17,39
+2023-08-17,Danish,Bakery,32,24
+2023-12-06,Apple,Produce,38,19
+2023-03-07,Strawberry,Produce,43,61
+2023-07-30,Buttermilk,Dairy,15,27
+2023-10-23,Tomato,Produce,25,21
+2023-11-06,Pie,Bakery,9,34
+2023-05-13,Bread,Bakery,40,34
+2023-08-04,Muffin,Bakery,46,25
+2023-09-07,Candy,Snacks,41,41
+2023-07-21,Chips,Snacks,47,40
+2023-06-29,Milk,Beverages,47,20
+2023-01-25,Lettuce,Produce,20,54
+2023-05-27,Lemonade,Beverages,42,47
+2023-07-27,Chocolate,Snacks,7,32
+2023-06-21,Tomato,Produce,21,63
+2023-04-19,Buttermilk,Dairy,21,25
+2023-09-02,Milk,Dairy,26,44
+2023-03-15,Carrot,Produce,45,30
+2023-12-08,Cookies,Snacks,21,19
+2023-01-16,Water,Beverages,21,40
+2023-05-17,Bagel,Bakery,35,20
+2023-06-16,Juice,Beverages,32,23
+2023-05-04,Chips,Snacks,48,43
+2023-03-25,Milk,Beverages,47,42
+2023-09-21,Roll,Bakery,45,38
+2023-02-28,Buttermilk,Dairy,5,52
+2023-11-05,Cream,Dairy,50,63
+2023-05-10,Orange,Produce,21,20
+2023-01-24,Popcorn,Snacks,47,27
+2023-07-19,Strawberry,Produce,10,55
+2023-09-14,Buttermilk,Dairy,25,39
+2023-06-08,Biscuits,Snacks,6,32
+2023-09-11,Juice,Beverages,44,31
+2023-06-19,Ice Cream,Dairy,26,53
+2023-03-10,Water,Beverages,37,45
+2023-12-04,Soda,Beverages,11,23
+2023-09-02,Pretzels,Snacks,30,47
+2023-05-03,Cheese,Dairy,18,28
+2023-04-10,Roll,Bakery,4,38
+2023-04-06,Banana,Produce,17,37
+2023-12-08,Biscuits,Snacks,23,53
+2023-11-12,Tea,Beverages,20,22
+2023-05-02,Chocolate,Snacks,23,49
+2023-01-30,Biscuits,Snacks,15,38
+2023-08-28,Donut,Bakery,4,47
+2023-06-11,Strawberry,Produce,18,46
+2023-01-22,Water,Beverages,1,18
+2023-09-26,Cream,Dairy,11,24
+2023-01-05,Tomato,Produce,41,46
+2023-10-20,Roll,Bakery,43,37
+2023-07-31,Granola Bar,Snacks,3,42
+2023-03-23,Ghee,Dairy,16,41
+2023-06-23,Chocolate,Snacks,20,49
+2023-04-30,Tomato,Produce,34,32
+2023-10-07,Ice Cream,Dairy,22,25
+2023-08-10,Milk,Dairy,16,34
+2023-03-11,Coffee,Beverages,14,47
+2023-12-13,Banana,Produce,3,37
+2023-09-02,Carrot,Produce,8,37
+2023-07-05,Pretzels,Snacks,6,63
+2023-12-26,Croissant,Bakery,26,39
+2023-03-14,Buttermilk,Dairy,10,37
+2023-04-26,Potato,Produce,50,41
+2023-03-22,Cottage Cheese,Dairy,29,33
+2023-02-09,Bagel,Bakery,12,29
+2023-08-22,Cheese,Dairy,22,62
+2023-08-11,Ice Cream,Dairy,48,35
+2023-02-20,Carrot,Produce,3,22
+2023-01-21,Banana,Produce,10,35
+2023-04-09,Croissant,Bakery,23,50
+2023-08-28,Crackers,Snacks,2,39
+2023-10-28,Sour Cream,Dairy,28,23
+2023-04-24,Crackers,Snacks,12,25
+2023-11-20,Milk,Beverages,49,63
+2023-06-23,Potato,Produce,24,36
+2023-12-05,Onion,Produce,8,21
+2023-02-09,Water,Beverages,39,39
+2023-06-20,Biscuits,Snacks,20,61
+2023-07-17,Cookies,Snacks,23,43
+2023-10-24,Energy Drink,Beverages,42,56
+2023-11-03,Onion,Produce,22,30
+2023-06-20,Chips,Snacks,41,30
+2023-10-31,Nuts,Snacks,50,29
+2023-12-14,Potato,Produce,6,31
+2023-10-20,Tea,Beverages,32,47
+2023-10-25,Energy Drink,Beverages,49,38
+2023-09-16,Orange,Produce,10,50
+2023-08-26,Lemonade,Beverages,13,29
+2023-10-13,Yogurt,Dairy,28,63
+2023-10-19,Apple,Produce,50,55
+2023-11-29,Water,Beverages,23,48
+2023-05-19,Chocolate,Snacks,35,29
+2023-08-17,Granola Bar,Snacks,19,28
+2023-08-19,Onion,Produce,28,34
+2023-03-26,Potato,Produce,25,33
+2023-07-25,Butter,Dairy,48,49
+2023-02-17,Biscuits,Snacks,22,28
+2023-04-17,Granola Bar,Snacks,46,57
+2023-06-13,Milk,Beverages,26,65
+2023-03-30,Apple,Produce,25,43
+2023-11-20,Chocolate,Snacks,32,29
+2023-05-12,Juice,Beverages,45,49
+2023-01-02,Candy,Snacks,36,18
+2023-03-04,Biscuits,Snacks,43,53
+2023-10-05,Milk,Beverages,13,32
+2023-03-07,Bread,Bakery,25,64
+2023-04-25,Onion,Produce,46,33
+2023-09-01,Lettuce,Produce,25,39
+2023-10-19,Iced Tea,Beverages,44,51
+2023-01-10,Biscuits,Snacks,18,43
+2023-08-19,Sour Cream,Dairy,8,48
+2023-04-22,Nuts,Snacks,21,42
+2023-09-12,Roll,Bakery,27,38
+2023-02-17,Cream,Dairy,19,20
+2023-10-29,Sour Cream,Dairy,46,46
+2023-10-02,Nuts,Snacks,45,54
+2023-01-20,Water,Beverages,1,42
+2023-05-03,Cottage Cheese,Dairy,42,20
+2023-09-22,Nuts,Snacks,39,59
+2023-04-27,Lemonade,Beverages,21,58
+2023-12-02,Carrot,Produce,17,59
+2023-10-09,Yogurt,Dairy,1,39
+2023-11-30,Bread,Bakery,33,54
+2023-11-22,Bread,Bakery,21,51
+2023-06-27,Crackers,Snacks,39,23
+2023-11-20,Donut,Bakery,36,57
+2023-08-30,Ice Cream,Dairy,19,61
+2023-09-29,Onion,Produce,28,31
+2023-05-11,Cheese,Dairy,48,52
+2023-07-03,Chips,Snacks,13,23
+2023-07-04,Juice,Beverages,18,49
+2023-02-16,Lettuce,Produce,36,49
+2023-05-16,Yogurt,Dairy,29,34
+2023-01-18,Butter,Dairy,4,56
+2023-09-27,Smoothie,Beverages,28,38
+2023-05-04,Crackers,Snacks,10,52
+2023-11-19,Coffee,Beverages,36,22
+2023-07-05,Cake,Bakery,46,45
+2023-01-26,Carrot,Produce,33,21
+2023-01-30,Orange,Produce,14,28
+2023-03-28,Water,Beverages,20,52
+2023-04-13,Smoothie,Beverages,22,20
+2023-03-19,Yogurt,Dairy,12,31
+2023-04-25,Cheese,Dairy,2,18
+2023-09-06,Smoothie,Beverages,25,57
+2023-01-14,Granola Bar,Snacks,33,21
+2023-05-21,Butter,Dairy,28,57
+2023-08-11,Donut,Bakery,43,25
+2023-03-23,Donut,Bakery,21,26
+2023-01-05,Buttermilk,Dairy,49,58
+2023-05-02,Juice,Beverages,50,52
+2023-12-21,Water,Beverages,13,44
+2023-07-30,Juice,Beverages,14,62
+2023-08-17,Biscuits,Snacks,44,48
+2023-02-20,Biscuits,Snacks,25,18
+2023-11-23,Cream,Dairy,27,43
+2023-08-05,Apple,Produce,45,54
+2023-05-08,Cottage Cheese,Dairy,7,53
+2023-12-05,Coffee,Beverages,50,56
+2023-10-18,Candy,Snacks,40,53
+2023-08-20,Sour Cream,Dairy,7,33
+2023-10-30,Ghee,Dairy,26,20
+2023-09-07,Coffee,Beverages,39,55
+2023-12-19,Tomato,Produce,35,63
+2023-02-22,Chips,Snacks,50,18
+2023-07-18,Lemonade,Beverages,46,27
+2023-01-13,Cucumber,Produce,46,27
+2023-06-12,Milk,Dairy,5,64
+2023-11-22,Ghee,Dairy,9,64
+2023-12-03,Candy,Snacks,3,53
+2023-09-16,Juice,Beverages,29,58
+2023-01-14,Cheese,Dairy,1,42
+2023-09-14,Butter,Dairy,11,63
+2023-12-23,Roll,Bakery,4,35
+2023-10-12,Muffin,Bakery,15,59
+2023-05-10,Nuts,Snacks,15,43
+2023-10-20,Tea,Beverages,15,19
+2023-03-20,Ice Cream,Dairy,16,63
+2023-07-16,Tomato,Produce,49,35
+2023-09-09,Pretzels,Snacks,9,27
+2023-09-22,Smoothie,Beverages,20,50
+2023-04-01,Smoothie,Beverages,17,40
+2023-06-06,Cucumber,Produce,35,55
+2023-12-26,Milk,Beverages,48,38
+2023-05-23,Crackers,Snacks,17,38
+2023-08-21,Ghee,Dairy,14,35
+2023-01-30,Apple,Produce,8,34
+2023-07-19,Donut,Bakery,11,49
+2023-06-13,Bread,Bakery,19,36
+2023-07-12,Pretzels,Snacks,50,33
+2023-03-12,Orange,Produce,30,55
+2023-02-04,Roll,Bakery,14,58
+2023-05-08,Milk,Beverages,25,64
+2023-03-11,Lemonade,Beverages,11,53
+2023-01-09,Bun,Bakery,50,33
+2023-01-10,Iced Tea,Beverages,15,39
+2023-04-28,Muffin,Bakery,33,36
+2023-09-20,Pretzels,Snacks,38,31
+2023-02-14,Lettuce,Produce,42,62
+2023-09-23,Energy Drink,Beverages,8,31
+2023-08-05,Lemonade,Beverages,15,49
+2023-08-28,Orange,Produce,7,49
+2023-01-25,Onion,Produce,8,53
+2023-06-21,Butter,Dairy,24,46
+2023-06-14,Cake,Bakery,38,51
+2023-09-01,Bun,Bakery,4,39
+2023-01-06,Muffin,Bakery,30,22
+2023-08-04,Cake,Bakery,41,31
+2023-10-04,Butter,Dairy,23,65
+2023-12-29,Candy,Snacks,26,22
+2023-09-24,Lettuce,Produce,33,43
+2023-05-27,Carrot,Produce,46,64
+2023-01-01,Nuts,Snacks,2,28
+2023-12-14,Soda,Beverages,39,48
+2023-03-25,Yogurt,Dairy,35,28
+2023-09-16,Yogurt,Dairy,24,28
+2023-11-27,Ice Cream,Dairy,7,31
+2023-11-01,Milk,Beverages,46,65
+2023-12-08,Energy Drink,Beverages,47,57
+2023-08-30,Smoothie,Beverages,9,55
+2023-07-11,Bagel,Bakery,20,45
+2023-08-31,Candy,Snacks,37,62
+2023-08-27,Cucumber,Produce,1,52
+2023-09-15,Chocolate,Snacks,50,65
+2023-05-07,Granola Bar,Snacks,7,30
+2023-04-09,Donut,Bakery,23,33
+2023-11-12,Lettuce,Produce,20,45
+2023-07-15,Cookies,Snacks,49,62
+2023-11-03,Orange,Produce,2,26
+2023-08-16,Soda,Beverages,2,19
+2023-05-21,Granola Bar,Snacks,11,29
+2023-11-10,Butter,Dairy,9,60
+2023-04-27,Nuts,Snacks,48,65
+2023-05-11,Cookies,Snacks,24,29
+2023-10-04,Popcorn,Snacks,1,20
+2023-04-23,Tea,Beverages,11,26
+2023-04-27,Donut,Bakery,4,44
+2023-02-01,Cucumber,Produce,50,37
+2023-08-19,Lemonade,Beverages,32,50
+2023-09-23,Bun,Bakery,27,48
+2023-03-16,Smoothie,Beverages,30,27
+2023-12-20,Chocolate,Snacks,41,21
+2023-04-08,Danish,Bakery,32,24
+2023-02-04,Popcorn,Snacks,10,58
+2023-07-09,Pretzels,Snacks,28,25
+2023-11-28,Bagel,Bakery,3,41
+2023-05-11,Granola Bar,Snacks,7,36
+2023-03-04,Cottage Cheese,Dairy,46,53
+2023-12-03,Butter,Dairy,26,52
+2023-11-26,Ice Cream,Dairy,39,61
+2023-08-29,Milk,Beverages,7,38
+2023-09-07,Bun,Bakery,36,24
+2023-10-02,Nuts,Snacks,21,50
+2023-07-10,Strawberry,Produce,15,20
+2023-03-12,Buttermilk,Dairy,34,57
+2023-02-05,Cookies,Snacks,44,20
+2023-01-04,Ghee,Dairy,10,51
+2023-04-08,Danish,Bakery,37,26
+2023-11-10,Popcorn,Snacks,46,23
+2023-07-12,Lemonade,Beverages,44,55
+2023-12-23,Coffee,Beverages,49,18
+2023-10-07,Crackers,Snacks,45,24
+2023-07-15,Juice,Beverages,9,38
+2023-09-24,Candy,Snacks,44,47
+2023-09-10,Iced Tea,Beverages,33,28
+2023-08-10,Muffin,Bakery,48,36
+2023-06-19,Smoothie,Beverages,14,47
+2023-01-09,Croissant,Bakery,27,40
+2023-01-16,Candy,Snacks,48,21
+2023-10-15,Smoothie,Beverages,26,46
+2023-02-15,Strawberry,Produce,44,32
+2023-03-10,Potato,Produce,6,60
+2023-07-02,Buttermilk,Dairy,45,32
+2023-05-19,Tea,Beverages,44,36
+2023-12-24,Croissant,Bakery,13,27
+2023-04-03,Granola Bar,Snacks,42,53
+2023-01-05,Lettuce,Produce,15,46
+2023-05-20,Water,Beverages,32,56
+2023-10-30,Energy Drink,Beverages,46,37
+2023-11-23,Candy,Snacks,45,51
+2023-06-24,Croissant,Bakery,31,44
+2023-08-29,Croissant,Bakery,37,63
+2023-10-03,Cheese,Dairy,42,22
+2023-09-19,Energy Drink,Beverages,40,30
+2023-12-31,Ice Cream,Dairy,42,56
+2023-12-26,Lemonade,Beverages,28,32
+2023-05-15,Carrot,Produce,8,58
+2023-04-05,Biscuits,Snacks,29,55
+2023-02-07,Chips,Snacks,44,32
+2023-12-28,Cucumber,Produce,9,18
+2023-07-22,Coffee,Beverages,13,31
+2023-07-09,Carrot,Produce,1,38
+2023-10-26,Donut,Bakery,39,59
+2023-01-10,Popcorn,Snacks,45,62
+2023-11-24,Tea,Beverages,22,53
+2023-07-31,Cream,Dairy,32,23
+2023-01-17,Tomato,Produce,8,52
+2023-04-22,Chocolate,Snacks,15,53
+2023-05-03,Croissant,Bakery,47,35
+2023-09-19,Cottage Cheese,Dairy,47,49
+2023-08-12,Milk,Beverages,26,59
+2023-08-05,Ice Cream,Dairy,27,44
+2023-05-16,Chocolate,Snacks,48,65
+2023-05-25,Tomato,Produce,34,53
+2023-06-13,Crackers,Snacks,24,42
+2023-12-29,Iced Tea,Beverages,36,50
+2023-03-03,Strawberry,Produce,46,27
+2023-06-02,Donut,Bakery,10,53
+2023-01-16,Lettuce,Produce,13,59
+2023-01-17,Pretzels,Snacks,11,24
+2023-06-02,Donut,Bakery,8,32
+2023-08-24,Sour Cream,Dairy,23,60
+2023-03-02,Cookies,Snacks,28,19
+2023-08-20,Sour Cream,Dairy,40,33
+2023-03-11,Cheese,Dairy,50,64
+2023-11-14,Chips,Snacks,10,54
+2023-01-31,Chocolate,Snacks,10,50
+2023-12-12,Croissant,Bakery,17,26
+2023-07-14,Strawberry,Produce,10,64
+2023-09-04,Tomato,Produce,2,40
+2023-07-17,Apple,Produce,7,54
+2023-11-23,Popcorn,Snacks,49,46
+2023-10-16,Lettuce,Produce,19,19
+2023-04-03,Buttermilk,Dairy,33,35
+2023-05-26,Cucumber,Produce,20,18
+2023-11-24,Apple,Produce,29,45
+2023-11-28,Chocolate,Snacks,37,50
+2023-03-22,Pie,Bakery,24,26
+2023-08-01,Muffin,Bakery,33,29
+2023-10-24,Pie,Bakery,48,45
+2023-02-26,Coffee,Beverages,47,38
+2023-10-06,Carrot,Produce,17,59
+2023-03-20,Muffin,Bakery,29,20
+2023-06-24,Sour Cream,Dairy,18,57
+2023-12-09,Milk,Dairy,18,25
+2023-11-09,Muffin,Bakery,20,21
+2023-07-06,Cheese,Dairy,12,40
+2023-09-20,Strawberry,Produce,13,40
+2023-11-21,Tomato,Produce,1,25
+2023-06-26,Crackers,Snacks,41,45
+2023-11-14,Crackers,Snacks,28,25
+2023-05-14,Popcorn,Snacks,27,28
+2023-06-28,Orange,Produce,17,44
+2023-02-08,Banana,Produce,45,62
+2023-04-13,Onion,Produce,30,48
+2023-12-29,Pretzels,Snacks,29,46
+2023-12-25,Juice,Beverages,39,48
+2023-03-25,Onion,Produce,23,38
+2023-11-16,Cottage Cheese,Dairy,10,65
+2023-10-02,Granola Bar,Snacks,15,21
+2023-01-27,Cream,Dairy,22,30
+2023-08-12,Banana,Produce,24,57
+2023-12-20,Danish,Bakery,43,39
+2023-09-16,Popcorn,Snacks,28,22
+2023-05-28,Lettuce,Produce,31,25
+2023-03-21,Croissant,Bakery,7,25
+2023-06-11,Muffin,Bakery,5,28
+2023-09-20,Lettuce,Produce,12,24
+2023-12-16,Chips,Snacks,12,55
+2023-06-15,Butter,Dairy,15,52
+2023-04-18,Milk,Dairy,50,52
+2023-11-18,Cake,Bakery,37,20
+2023-03-05,Smoothie,Beverages,41,23
+2023-03-19,Buttermilk,Dairy,9,37
+2023-11-07,Cheese,Dairy,37,55
+2023-06-22,Iced Tea,Beverages,10,64
+2023-02-04,Chocolate,Snacks,40,45
+2023-06-16,Chocolate,Snacks,33,53
+2023-06-13,Banana,Produce,7,63
+2023-04-27,Tea,Beverages,35,26
+2023-03-06,Smoothie,Beverages,48,44
+2023-03-17,Sour Cream,Dairy,14,53
+2023-10-07,Bagel,Bakery,25,19
+2023-02-07,Smoothie,Beverages,49,30
+2023-02-18,Roll,Bakery,34,45
+2023-07-23,Popcorn,Snacks,1,47
+2023-05-17,Ice Cream,Dairy,12,63
+2023-07-23,Bread,Bakery,36,64
+2023-12-17,Yogurt,Dairy,40,63
+2023-02-23,Cottage Cheese,Dairy,2,53
+2023-08-08,Cheese,Dairy,16,31
+2023-09-26,Cheese,Dairy,50,53
+2023-08-06,Carrot,Produce,4,29
+2023-03-10,Crackers,Snacks,40,57
+2023-01-16,Cake,Bakery,20,41
+2023-03-26,Cottage Cheese,Dairy,9,64
+2023-03-22,Crackers,Snacks,16,36
+2023-10-27,Milk,Beverages,30,36
+2023-09-04,Biscuits,Snacks,39,44
+2023-04-16,Popcorn,Snacks,13,59
+2023-05-08,Nuts,Snacks,12,62
+2023-06-09,Cucumber,Produce,15,61
+2023-01-15,Granola Bar,Snacks,13,64
+2023-05-11,Donut,Bakery,41,60
+2023-12-09,Potato,Produce,23,42
+2023-08-10,Soda,Beverages,11,61
+2023-07-02,Croissant,Bakery,44,62
+2023-12-24,Apple,Produce,35,42
+2023-01-25,Cheese,Dairy,32,55
+2023-01-17,Cheese,Dairy,44,19
+2023-05-24,Sour Cream,Dairy,3,33
+2023-05-24,Nuts,Snacks,43,27
+2023-12-05,Roll,Bakery,44,30
+2023-06-10,Smoothie,Beverages,35,18
+2023-04-08,Potato,Produce,16,54
+2023-11-30,Milk,Beverages,43,65
+2023-07-18,Milk,Dairy,2,24
+2023-08-14,Lemonade,Beverages,48,33
+2023-02-09,Carrot,Produce,44,65
+2023-03-07,Chips,Snacks,33,39
+2023-04-05,Biscuits,Snacks,2,29
+2023-07-28,Soda,Beverages,42,59
+2023-08-05,Juice,Beverages,29,30
+2023-04-23,Cheese,Dairy,1,58
+2023-01-20,Cake,Bakery,28,23
+2023-06-03,Energy Drink,Beverages,4,60
+2023-04-03,Cream,Dairy,9,22
+2023-04-03,Pie,Bakery,26,40
+2023-03-17,Cucumber,Produce,20,56
+2023-03-13,Milk,Dairy,10,40
+2023-10-29,Pie,Bakery,45,59
+2023-03-09,Danish,Bakery,49,26
+2023-10-10,Chips,Snacks,26,63
+2023-10-09,Yogurt,Dairy,14,41
+2023-02-08,Carrot,Produce,7,43
+2023-11-15,Strawberry,Produce,14,63
+2023-04-27,Potato,Produce,46,35
+2023-07-17,Orange,Produce,20,44
+2023-10-06,Iced Tea,Beverages,1,36
+2023-08-15,Muffin,Bakery,34,62
+2023-05-23,Butter,Dairy,45,48
+2023-06-22,Nuts,Snacks,17,33
+2023-04-16,Cheese,Dairy,29,46
+2023-12-18,Bread,Bakery,36,59
+2023-11-30,Ice Cream,Dairy,6,45
+2023-11-24,Milk,Dairy,25,42
+2023-01-31,Muffin,Bakery,6,26
+2023-11-03,Ice Cream,Dairy,20,41
+2023-07-09,Tomato,Produce,11,61
+2023-05-05,Buttermilk,Dairy,45,42
+2023-06-06,Carrot,Produce,32,44
+2023-05-10,Biscuits,Snacks,32,47
+2023-11-05,Potato,Produce,39,63
+2023-02-26,Cookies,Snacks,39,21
+2023-08-14,Energy Drink,Beverages,47,47
+2023-09-16,Ice Cream,Dairy,9,47
+2023-12-15,Biscuits,Snacks,44,35
+2023-04-23,Chips,Snacks,14,20
+2023-06-17,Lettuce,Produce,13,48
+2023-04-17,Sour Cream,Dairy,13,39
+2023-09-16,Strawberry,Produce,44,42
+2023-03-13,Cheese,Dairy,5,51
+2023-08-06,Tea,Beverages,20,41
+2023-12-02,Milk,Beverages,23,44
+2023-11-17,Chocolate,Snacks,32,33
+2023-03-21,Carrot,Produce,37,64
+2023-10-01,Tea,Beverages,32,33
+2023-01-19,Cottage Cheese,Dairy,42,50
+2023-04-10,Cucumber,Produce,49,22
+2023-04-09,Nuts,Snacks,24,53
+2023-06-24,Cucumber,Produce,13,33
+2023-10-22,Muffin,Bakery,30,47
+2023-04-24,Donut,Bakery,27,21
+2023-03-24,Banana,Produce,24,27
+2023-04-12,Lettuce,Produce,6,51
+2023-03-30,Biscuits,Snacks,25,43
+2023-10-08,Sour Cream,Dairy,3,64
+2023-07-16,Buttermilk,Dairy,2,64
+2023-07-03,Granola Bar,Snacks,16,21
+2023-03-01,Granola Bar,Snacks,31,44
+2023-06-11,Bread,Bakery,32,27
+2023-10-04,Carrot,Produce,11,55
+2023-09-09,Chocolate,Snacks,44,30
+2023-07-21,Smoothie,Beverages,14,36
+2023-01-26,Pretzels,Snacks,9,38
+2023-06-11,Donut,Bakery,47,61
+2023-02-07,Milk,Dairy,26,38
+2023-07-15,Coffee,Beverages,12,33
+2023-08-13,Ghee,Dairy,30,52
+2023-12-16,Cake,Bakery,11,25
+2023-03-12,Cheese,Dairy,21,20
+2023-08-03,Chocolate,Snacks,35,63
+2023-01-29,Lemonade,Beverages,8,30
+2023-12-29,Bread,Bakery,47,32
+2023-02-21,Strawberry,Produce,14,41
+2023-07-22,Milk,Dairy,49,62
+2023-03-08,Yogurt,Dairy,29,34
+2023-11-27,Juice,Beverages,6,53
+2023-12-18,Iced Tea,Beverages,6,34
+2023-09-19,Danish,Bakery,34,39
+2023-02-21,Tomato,Produce,29,55
+2023-01-24,Croissant,Bakery,45,52
+2023-05-11,Tea,Beverages,3,64
+2023-07-05,Buttermilk,Dairy,39,20
+2023-05-06,Juice,Beverages,11,53
+2023-05-14,Onion,Produce,20,29
+2023-03-01,Granola Bar,Snacks,26,19
+2023-05-14,Tea,Beverages,33,34
+2023-11-29,Biscuits,Snacks,50,55
+2023-05-11,Apple,Produce,47,19
+2023-06-21,Ice Cream,Dairy,35,29
+2023-10-14,Coffee,Beverages,39,44
+2023-08-05,Sour Cream,Dairy,7,45
+2023-03-19,Butter,Dairy,45,60
+2023-03-07,Tomato,Produce,3,39
+2023-12-31,Crackers,Snacks,50,59
+2023-08-05,Juice,Beverages,44,50
+2023-08-14,Pretzels,Snacks,36,56
+2023-12-30,Apple,Produce,12,59
+2023-10-18,Biscuits,Snacks,42,29
+2023-08-05,Soda,Beverages,4,40
+2023-07-26,Strawberry,Produce,12,48
+2023-11-13,Tea,Beverages,38,58
+2023-10-12,Onion,Produce,27,22
+2023-08-17,Energy Drink,Beverages,19,24
+2023-02-13,Roll,Bakery,17,48
+2023-02-06,Potato,Produce,31,23
+2023-12-16,Roll,Bakery,28,48
+2023-06-16,Energy Drink,Beverages,49,61
+2023-12-11,Iced Tea,Beverages,43,27
+2023-03-22,Lettuce,Produce,27,20
+2023-12-31,Pie,Bakery,35,62
+2023-03-03,Cream,Dairy,46,34
+2023-01-21,Onion,Produce,25,19
+2023-02-17,Coffee,Beverages,5,34
+2023-01-21,Croissant,Bakery,18,33
+2023-03-05,Granola Bar,Snacks,29,63
+2023-11-02,Milk,Beverages,26,24
+2023-09-13,Crackers,Snacks,24,46
+2023-05-14,Apple,Produce,12,28
+2023-05-19,Granola Bar,Snacks,6,51
+2023-08-04,Yogurt,Dairy,34,52
+2023-12-17,Ghee,Dairy,24,51
+2023-09-06,Biscuits,Snacks,29,26
+2023-02-27,Crackers,Snacks,3,52
+2023-11-25,Nuts,Snacks,34,41
+2023-04-26,Pretzels,Snacks,38,31
+2023-11-15,Coffee,Beverages,4,46
+2023-10-21,Nuts,Snacks,44,31
+2023-03-18,Cake,Bakery,2,32
+2023-01-17,Strawberry,Produce,37,64
+2023-03-24,Coffee,Beverages,38,28
+2023-07-14,Biscuits,Snacks,29,37
+2023-04-09,Iced Tea,Beverages,17,60
+2023-05-09,Soda,Beverages,11,41
+2023-08-16,Orange,Produce,8,61
+2023-03-07,Lemonade,Beverages,21,25
+2023-04-03,Cake,Bakery,1,46
+2023-04-03,Popcorn,Snacks,43,43
+2023-12-24,Pretzels,Snacks,20,54
+2023-08-11,Biscuits,Snacks,45,22
+2023-05-19,Onion,Produce,23,51
+2023-09-03,Lemonade,Beverages,41,33
+2023-12-05,Lettuce,Produce,8,59
+2023-09-16,Coffee,Beverages,17,47
+2023-09-02,Sour Cream,Dairy,29,26
+2023-06-29,Tomato,Produce,11,59
+2023-12-21,Cake,Bakery,47,34
+2023-10-19,Cream,Dairy,48,44
+2023-05-15,Onion,Produce,47,26
+2023-11-11,Milk,Dairy,18,65
+2023-05-02,Water,Beverages,36,19
+2023-07-09,Pie,Bakery,15,52
+2023-09-21,Chips,Snacks,38,65
+2023-10-11,Popcorn,Snacks,9,44
+2023-04-04,Soda,Beverages,9,35
+2023-02-22,Pretzels,Snacks,44,58
+2023-12-04,Chocolate,Snacks,30,49
+2023-03-01,Juice,Beverages,21,35
+2023-12-01,Iced Tea,Beverages,29,60
+2023-04-01,Apple,Produce,45,48
+2023-10-24,Butter,Dairy,46,51
+2023-02-21,Chocolate,Snacks,9,37
+2023-11-21,Cake,Bakery,24,30
+2023-08-11,Bun,Bakery,48,26
+2023-08-15,Milk,Beverages,6,52
+2023-02-03,Lemonade,Beverages,25,50
+2023-09-18,Butter,Dairy,38,64
+2023-08-09,Danish,Bakery,19,36
+2023-11-10,Buttermilk,Dairy,42,18
+2023-09-07,Pie,Bakery,12,56
+2023-02-22,Tomato,Produce,2,31
+2023-04-29,Coffee,Beverages,40,18
+2023-03-28,Muffin,Bakery,37,31
+2023-08-02,Coffee,Beverages,29,55
+2023-04-20,Milk,Beverages,7,43
+2023-12-25,Sour Cream,Dairy,2,23
+2023-06-14,Cottage Cheese,Dairy,47,61
+2023-07-11,Sour Cream,Dairy,19,65
+2023-08-11,Buttermilk,Dairy,8,63
+2023-10-05,Candy,Snacks,18,21
+2023-07-29,Strawberry,Produce,29,61
+2023-08-10,Cookies,Snacks,9,27
+2023-02-21,Milk,Beverages,8,34
+2023-07-05,Onion,Produce,28,39
+2023-06-20,Soda,Beverages,47,64
+2023-06-01,Chips,Snacks,32,48
+2023-09-13,Pretzels,Snacks,14,65
+2023-02-02,Chocolate,Snacks,19,46
+2023-09-08,Potato,Produce,35,24
+2023-06-12,Bun,Bakery,41,62
+2023-12-01,Lemonade,Beverages,19,30
+2023-03-23,Banana,Produce,24,38
+2023-12-16,Chocolate,Snacks,17,56
+2023-07-23,Sour Cream,Dairy,27,24
+2023-12-22,Banana,Produce,37,30
+2023-11-09,Bagel,Bakery,24,57
+2023-11-26,Carrot,Produce,35,48
+2023-03-09,Nuts,Snacks,1,19
+2023-10-29,Croissant,Bakery,15,21
+2023-11-28,Biscuits,Snacks,4,42
+2023-12-22,Milk,Dairy,40,18
+2023-02-18,Candy,Snacks,35,42
+2023-11-03,Crackers,Snacks,15,56
+2023-09-05,Muffin,Bakery,23,26
+2023-10-08,Donut,Bakery,27,24
